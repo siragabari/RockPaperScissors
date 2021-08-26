@@ -1,5 +1,5 @@
 # RockPaperScissors
-Solution to homework assignment: Rock, paper, scissors
+Solution to homework assignment: Rock, paper, scissors (individual)
 
 1- The user chooses one of the elements
 2- The shake animation fires (not correctly implemented, there is a wait of 2 seconds)
