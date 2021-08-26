@@ -45,7 +45,7 @@ function makeRandomComputerChoice(){
 function showAnimations(){
     console.log("showAnimations");
 
-    //document.getElementById('player1').style.animation = "shake 1.8s ease-in 1 forwards";  // shake animation
+    document.getElementById('player1').style.animation = "shake 1.8s ease-in 1 forwards";  // shake animation
 
     // Show choices
     setTimeout(function() {
