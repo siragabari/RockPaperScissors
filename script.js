@@ -47,7 +47,7 @@ function showAnimations(){
     
     // Shake animation
     document.getElementById('player1').style.animation = "shake 1.8s ease-in 1 forwards";
-    document.getElementById('player2').style.animation = "shake 1.8s ease-in 1 forwards";
+    //document.getElementById('player2').style.animation = "shake 1.8s ease-in 1 forwards";
 
     // Show choices
     setTimeout(function() {
