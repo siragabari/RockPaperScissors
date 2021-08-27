@@ -46,8 +46,8 @@ function showAnimations(){
     console.log("showAnimations");
     
     // Shake animation
-    document.getElementById('player1').style.animation = "shake 1.8s ease-in 1 forwards";
-    //document.getElementById('player2').style.animation = "shake 1.8s ease-in 1 forwards";
+    document.getElementById('player1').classList.add("shake");
+    document.getElementById('player2').classList.add("shake");
 
     // Show choices
     setTimeout(function() {
@@ -99,6 +99,8 @@ function determinWinner(){
     setTimeout(function() {
         document.getElementById('player1').style.background = 'url(' + 'hand_rock.png' + ')';
         document.getElementById('player2').style.background = 'url(' + 'hand_rock.png' + ')';
+        document.getElementById('player1').classList.remove("shake");
+        document.getElementById('player2').classList.remove("shake");
     }, 2000);
 
 }
